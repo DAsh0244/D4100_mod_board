@@ -1,0 +1,28 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rcomp2,Panasonic,ERJ-6ENF7871V,1,0.01,6.75,Resistance: 7.87 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Ccomp3,Samsung Electro-Mechanics,CL21C331JBANNNC,1,0.01,6.75,Cap: 330 pF  Total Derated Cap: 330 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Ccomp2,Samsung Electro-Mechanics,CL21C111JBANNNC,1,0.1,6.75,Cap: 110 pF  Total Derated Cap: 110 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Ccomp,Samsung Electro-Mechanics,CL21C511JBANNNC,1,0.21,6.75,Cap: 510 pF  Total Derated Cap: 510 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Rcomp,Yageo,RT0805BRD0727K7L,1,0.046,6.75,Resistance: 27.7 kΩ  Tolerance: 0.1%  Power: 125 mW  
+Rfbb,Vishay-Dale,CRCW08051K65FKEA,1,0.01,6.75,Resistance: 1.65 kΩ  Tolerance: 1.0%  Power: 125 mW  
+U1,Texas Instruments,LM25088MH-1/NOPB,1,1.5,58.8,
+Ruv1,Panasonic,ERJ-6ENF3571V,1,0.01,6.75,Resistance: 3.57 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Rramp,Vishay-Dale,CRCW080541K2FKEA,1,0.01,6.75,Resistance: 41.2 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Cft,MuRata,GRM219R71E683KA01D,1,0.03,6.75,Cap: 68 nF  Total Derated Cap: 64 nF  VDC: 25 V  ESR: 1 mΩ  Package: 0805  
+Cio,TDK,C1608X5R1H684K080AB,1,0.05,4.68,Cap: 680 nF  Total Derated Cap: 680 nF  VDC: 50 V  ESR: 7.13 mΩ  Package: 0603  
+M1,Texas Instruments,CSD18543Q3A,1,0.27,18.49,VdsMax: 60 V  IdsMax: 35 Amps  
+Crst,MuRata,GRM216R71H223KA01D,1,0.02,6.75,Cap: 22 nF  Total Derated Cap: 22 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+Cvcc,Yageo,CC0805KRX7R9BB104,1,0.02,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+D1,Diodes Inc.,B560C-13-F,1,0.17,83.27,Type: Schottky  VRRM: 60 V  Io: 5 A  
+Cramp,Kemet,C0805C301J5GACTU,1,0.09,6.75,Cap: 300 pF  Total Derated Cap: 300 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+L1,Coilcraft,MLC1565-372MLB,1,1.05,243.2,L: 3.7 µH  DCR: 3.1 mΩ  IDC: 13.63 A  
+Ruv2,Vishay-Dale,CRCW080510K0FKEA,1,0.01,6.75,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Coutx,TDK,C2012X5R1H225K125AB,1,0.15,6.75,Cap: 2.2 µF  Total Derated Cap: 2.2 µF  VDC: 50 V  ESR: 3.66 mΩ  Package: 0805  
+Css,Yageo,CC0805KRX7R9BB104,1,0.02,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+Cinx,Taiyo Yuden,TMK212BJ474KD-T,1,0.02,6.75,Cap: 470 nF  Total Derated Cap: 470 nF  VDC: 20 V  ESR: 1 mΩ  Package: 0805  
+Cboot,Yageo,CC0805KRX7R9BB104,1,0.02,6.75,Cap: 100 nF  Total Derated Cap: 98 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+Cin,Kemet,C0805C106K8PACTU,1,0.03,6.75,Cap: 10 µF  Total Derated Cap: 10 µF  VDC: 10 V  ESR: 3 mΩ  Package: 0805  
+Rfbt,Panasonic,ERJ-6ENF3572V,1,0.01,6.75,Resistance: 35.7 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Rsense,Susumu Co Ltd,PRL1632-R006-F-T1,1,0.2,10.92,Resistance: 6 mΩ  Tolerance: 1.0%  Power: 1 W  
+Cout,Panasonic,50SVPF18M,2,0.54,106.09,Cap: 18 µF  Total Derated Cap: 18 µF  VDC: 50 V  ESR: 35 mΩ  Package: 8x6.9  
+Rt,Panasonic,ERJ-6ENF1872V,1,0.01,6.75,Resistance: 18.7 kΩ  Tolerance: 1.0%  Power: 125 mW  

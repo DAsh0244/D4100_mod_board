@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name CSD18543Q3A)(type KiCad)(uri ${KIPRJMOD}/libs/footprint/CSD18543Q3A.pretty)(options "")(descr ""))
+  (lib (name d4100_mod_board)(type KiCad)(uri ${KIPRJMOD}/libs/footprint/d4100_mod_board.pretty)(options "")(descr ""))
+  (lib (name net_ties)(type KiCad)(uri ${KIPRJMOD}/libs/footprint/net_ties)(options "")(descr ""))
+  (lib (name TPS55340PWPR)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/TPS55340PWPR.mod)(options "")(descr ""))
+  (lib (name TPS55340RTER)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/TPS55340RTER.mod)(options "")(descr ""))
+  (lib (name LM25088MH-1)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/LM25088MH-1/LM25088MH-1.mod)(options "")(descr ""))
+  (lib (name TPS40211DGQR)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/TPS40211DGQR/TPS40211DGQR.mod)(options "")(descr ""))
+  (lib (name DIO_PDS360-13)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/DIO_PDS360-13.mod)(options "")(descr ""))
+  (lib (name XAL5030-332MEB)(type Legacy)(uri ${KIPRJMOD}/libs/footprint/XAL5030-332MEB.mod)(options "")(descr ""))
+)

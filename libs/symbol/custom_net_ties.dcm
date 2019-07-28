@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Net-Tie_3
+D Net tie, 3 pins
+K net tie short
+F ~
+$ENDCMP
+#
+#End Doc Library

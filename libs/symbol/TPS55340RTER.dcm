@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS55340RTER
+D Integrated, 5-A 40-V Wide Input Range Boost/SEPIC/Flyback DC-DC Regulator 16-WQFN -40 to 150
+K switcher
+$ENDCMP
+#
+#End Doc Library

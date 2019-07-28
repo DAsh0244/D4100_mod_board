@@ -1,0 +1,58 @@
+Source:,C:\Users\Danyal\Documents\SMU\d4100_mod_board\d4100_mod_board.sch,,,
+Date:,6/25/2019 14:08,,,
+Tool:,Eeschema (5.1.0)-1,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,
+Component Count:,82,,,
+Ref,Qnty,Value,Footprint,Vendor
+"C101, C102, ",2,4u7,Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow,https://www.mouser.com/ProductDetail/AVX/TPSC475K035R0600?qs=%2Fha2pyFaduglChbUjLQpjYi93MlbS%2F0%2FZAO9XOBpQeTQ9QaxImqcQA%3D%3D
+"C201, ",1,10u,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C106K8PACTU?qs=sGAEpiMZZMs0AnBnWHyRQI9zuYIiQALCxT7NLyqb6iU%3D
+"C202, C402, ",2,470n,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ474KD-T?qs=sGAEpiMZZMs0AnBnWHyRQAEIN6r3SS%2FO4oIGpvy6Lhk%3D
+"C203, ",1,68n,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C683K5RACAUTO?qs=sGAEpiMZZMs0AnBnWHyRQNchIam%2FLmo3rUMnj24R2BQ%3D
+"C204, ",1,22n,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C223K5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQGePoPkXM4XXucrrggfGQyM%3D
+"C206, ",1,300p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C301J5GACTU?qs=oFoKycrZbNoqoWjD8L20vg%3D%3D
+"C208, C207, C205, ",3,100n,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/Yageo/CC0805KRX7R9BB104?qs=%2Fha2pyFadujHGX9Y28fVn258q4UeuEqTSPnIJC5Efl%2F6LQg4v4mUgA%3D%3D
+"C209, ",1,110p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C111J5GACTU?qs=sGAEpiMZZMs0AnBnWHyRQAmsl0Dsa%252Bd1R%252Bt%252BAiDG428%3D
+"C210, ",1,510p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C511MCGAC7210?qs=sGAEpiMZZMvsSlwiRhF8qhq1yIqtqizH%2F8u9P%252BOva4LyDD1tpasHjA%3D%3D
+"C211, C212, C408, ",3,330p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/Wurth-Elektronik/885342007002?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPUr6yh7T8k5o6KbyQyPLDFw%3D%3D
+"C213, C214, ",2,18u,Capacitors_SMD:CP_Elec_8x6.7,https://www.mouser.com/ProductDetail/Panasonic/50SVPF18M?qs=%2Fha2pyFadug15isFPxURtLt88Mu7L3Ac1fHYd5pegrA%3D
+"C215, ",1,2u2,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/TDK/C2012X5R1H225K125AB?qs=%2Fha2pyFadujDqt6GaOhNLVpp11dUEsVZxZnCFtuBjVuJ0r80pejQSmuumDOAAP9k
+"C401, ",1,100u,Capacitors_SMD:CP_Elec_8x10,https://www.mouser.com/ProductDetail/Nichicon/UUD1V101MNL1GS?qs=%2Fha2pyFadujGm7mo0xKju4qFaCoOGAbKrdFN06Qe3OaemdYPo2%252BBaw%3D%3D
+"C403, ",1,91p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C0805C910J5GACTU?qs=sGAEpiMZZMs0AnBnWHyRQO7Zi%2FZ6VAyoz1o04UPJqeo%3D
+"C404, ",1,39n,Capacitors_SMD:C_1206_HandSoldering,https://www.mouser.com/ProductDetail/KEMET/C1206C393J5GACTU?qs=sGAEpiMZZMvsSlwiRhF8qn3g06cuAgX%252BUEQ%2FMI9os5uobZwmpU5Q0w%3D%3D
+"C405, ",1,15n,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/TDK/CGA4F2C0G1H153J085AA?qs=%2Fha2pyFadug%252BIoz490s36QNJXidOSh7nNc9Q2F3gxWQrmJD8qmfGBUWDVwxClqIQ
+"C406, C411, C412, C413, ",4,1u,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/Taiyo-Yuden/GMK212B7105KG-T?qs=%2Fha2pyFadugZHwNUm%252B10vPmWWZZfHZuXcUd4Py2HaWkzX75IX23c8A%3D%3D
+"C407, ",1,680p,Capacitors_SMD:C_0805_HandSoldering,https://www.mouser.com/ProductDetail/Wurth-Elektronik/885012007087?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPP8ZJu1qfIyt5%252BhQkKnOU6Wg%3D%3D
+"C409, C410, ",2,68u,Capacitors_SMD:CP_Elec_10x10.5,https://www.mouser.com/ProductDetail/Panasonic/50SVPF68M?qs=%2Fha2pyFadugaWk3BqP5QCeu7xxWvYM2ar8VyorxhYTM%3D
+"D101, D102, ",2,BZV55B27,Diodes_SMD:D_MiniMELF_Handsoldering,https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZV55B27-L1?qs=sGAEpiMZZMtQ8nqTKtFS%2FBBvJ4zpFTk1FiiiGr9sANE%3D
+"D201, ",1,B560C-13-F,Diodes_SMD:D_SMC_Handsoldering,https://www.mouser.com/ProductDetail/Diodes-Incorporated/B560C-13-F?qs=%2Fha2pyFadujMQc6fUH%2FT5kCJ2FWDc%2FGrbqKbvdrfFUs%3D
+"D301, D501, ",2,ZMM5234B,Diodes_SMD:D_MiniMELF_Handsoldering,https://www.mouser.com/ProductDetail/Rectron/ZMM5234B?qs=sGAEpiMZZMtQ8nqTKtFS%2FCcEpspHpFkv27cm4fn%2F9uc%3D
+"D401, ",1,MBRS2040LT3G,Diodes_SMD:D_SMB_Handsoldering,https://www.mouser.com/ProductDetail/ON-Semiconductor/MBRS2040LT3G?qs=%2Fha2pyFaduiV2NjWgd%252Bkb8%2FH5bmEwA4S3AbpE8c3BP4fnELzlmoyRw%3D%3D
+"F101, F102, ",2,Polyfuse,Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering,https://www.mouser.com/ProductDetail/652-MF-NSHT016KX-2
+"J101, J102, ",2,Pogo_Pin,d4100_mod_board:mill-max_0985-x-15-20-71-14-11-0,https://www.mouser.com/ProductDetail/Mill-Max/0985-0-15-20-71-14-11-0?qs=%2Fha2pyFadug%252BMEYzIoF7O5ktCq2mF%252Ba%2F%2FOhrxMI%2Fn1a23TMGjIvtBbzGdbQyaXS2
+"J103, ",1,Conn_01x02_Female,d4100_mod_board:Phoenix_BCH-508HS-2,https://www.mouser.com/ProductDetail/651-5433668
+"J105, J104, ",2,Conn_01x04_Female,"d4100_mod_board:Phoenix_PTSM_0,5_4-HH-2,5-THR",https://www.mouser.com/ProductDetail/Phoenix-Contact/1814867?qs=sGAEpiMZZMsDddcp1dBDJGf400ajiBk9d2T%252Bs2FfNBA%3D
+"L201, ",1,3u7,d4100_mod_board:L_Coilcraft_MLC1565,https://www.mouser.com/ProductDetail/?qs=zCSbvcPd3pbFU9X5ovgoUQ%3D%3D
+"L401, ",1,12u,d4100_mod_board:PM2110-xxxx-RC,https://www.mouser.com/ProductDetail/JW-Miller/PM2110-120K-RC?qs=%2Fha2pyFaduiXVN4ORGM3z7N%2FGlDi0RTlHsK%2F1gPpoKtv51H4QiC7iQ%3D%3D
+"Q201, ",1,CSD18543Q3A,CSD18543Q3A:SON65P300X315X90-9N,https://www.mouser.com/ProductDetail/Texas-Instruments/CSD18543Q3A?qs=sGAEpiMZZMshyDBzk1%2FWiwPD5OXbfshYlAKrhNigB8d4vkMfSvZA6A%3D%3D
+"Q301, ",1,DMN6140LQ-7,TO_SOT_Packages_SMD:SOT-23,https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMN6140LQ-7?qs=sGAEpiMZZMshyDBzk1%2FWi%252BpE1VGhjkFSeL%2Fd1qhNn5ZHDI0o9Rfkew%3D%3D
+"Q401, ",1,CSD18504Q5A,TO_SOT_Packages_SMD:TDSON-8-1,https://www.mouser.com/ProductDetail/Texas-Instruments/CSD18504Q5A?qs=sGAEpiMZZMshyDBzk1%2FWi3SG0MGkHENUrNovT5MnSJU%3D
+"Q501, ",1,DMP6350S-7,TO_SOT_Packages_SMD:SOT-23,https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMP6350S-7?qs=sGAEpiMZZMshyDBzk1%2FWi3VK%2FMVeCy7TdMzBRObdFbzpbGYHTOn1Ew%3D%3D
+"R201, ",1,10k,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GOIdKSeOTyFU%3D
+"R202, ",1,3k57,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF3571V?qs=%2Fha2pyFaduirjrsza3agtlHIwXEGcTr8DYL9NLmEzgbddCRIkKq21g%3D%3D
+"R203, ",1,41k2,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080541K2FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GOBdSvjTd6LE%3D
+"R204, ",1,18k7,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1872V?qs=%2Fha2pyFaduirjrsza3agtmmBqPbpSVPFVzwngsYmqjqhEfQfHfAQSQ%3D%3D
+"R205, R407, ",2,6m,Resistors_SMD:R_2512_HandSoldering,https://www.mouser.com/ProductDetail/?qs=xFKX9dHO0tmRZfDvOELh9w%3D%3D
+"R206, ",1,27k7,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Yageo/RT0805BRD0727K7L?qs=%2Fha2pyFaduicOgLye3hcmRqeFjMiAIdkPHfgOdNa1dwqnmhH1VpQ7g%3D%3D
+"R207, ",1,7k87,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF7871V?qs=%2Fha2pyFaduirjrsza3agtrDWMKYIWoOVcTSoSt9Rsv4%252Bc%2FElxn8X%252Bw%3D%3D
+"R208, ",1,35k7,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF3572V?qs=%2Fha2pyFaduirjrsza3agtoEK2xK3r7M3%252BqFGRiqMqB2Tqor%252B43SHsw%3D%3D
+"R209, ",1,1k65,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K65FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G1pUsqF1xYA8%3D
+"R301, R501, ",2,R,Resistors_SMD:R_0805_HandSoldering,
+"R401, ",1,23k7,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF2372V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xp9UERQSZe4U%3D
+"R402, ",1,604k,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805604KFKEA?qs=EhwKGB4UJfmAh7gVN3YrTA%3D%3D
+"R403, ",1,560,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805560RFKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuSSw%2FPa0iSCA%3D
+"R404, ",1,57k6,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080557K6FKEA?qs=sGAEpiMZZMvdGkrng054tygjBeyq%2FOAOgeBby5ZBj6g%3D
+"R405, ",1,13R7,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080513R7FKEA?qs=sGAEpiMZZMvdGkrng054tygjBeyq%2FOAOb9MgKzpfDMc%3D
+"R406, ",1,1k05,Resistors_SMD:R_0805_HandSoldering,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K05FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G%252BxRMlmZkHfY%3D
+"SW101, SW102, ",2,SW_DPDT_x2,d4100_mod_board:S202031MS02Q,https://www.mouser.com/ProductDetail/CK/S202031MS02Q?qs=cygERTaPE9Blt5iebcagSg%3D%3D
+"U201, ",1,LM25088MH-1,LM25088MH-1:SOP65P640X110-17N,https://www.mouser.com/ProductDetail/Texas-Instruments/LM25088MH-1-NOPB?qs=sGAEpiMZZMvFgFrcgbsedf6UbclRl4cqJH0Qw8LMAZ4%3D
+"U401, ",1,TPS40211DGQR,TPS40211DGQR:SOP50P490X110-11N,https://www.mouser.com/ProductDetail/Texas-Instruments/TPS40211DGQR?qs=sGAEpiMZZMvFgFrcgbsedQWV2J5nQaloXfKd%2FqMs8RI%3D

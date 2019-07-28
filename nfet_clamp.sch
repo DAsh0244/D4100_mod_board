@@ -1,0 +1,116 @@
+EESchema Schematic File Version 4
+LIBS:d4100_mod_board_full-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:Q_NMOS_GSD Q?
+U 1 1 5D0CF104
+P 5850 2950
+AR Path="/5D0CD065/5D0CF104" Ref="Q?"  Part="1" 
+AR Path="/5D0E87CE/5D0CF104" Ref="Q301"  Part="1" 
+F 0 "Q301" H 6056 2996 50  0000 L CNN
+F 1 "DMN6140LQ-7" H 6056 2905 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6050 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/DMN6140L-709504.pdf" H 5850 2950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMN6140LQ-7?qs=sGAEpiMZZMshyDBzk1%2FWi%252BpE1VGhjkFSeL%2Fd1qhNn5ZHDI0o9Rfkew%3D%3D" H 5850 2950 50  0001 C CNN "Vendor"
+	1    5850 2950
+	0    1    -1   0   
+$EndComp
+Text HLabel 6750 2850 2    50   Input ~ 0
+Vin+
+$Comp
+L device:D_Zener D?
+U 1 1 5D102753
+P 5300 3050
+AR Path="/5D0CD065/5D102753" Ref="D?"  Part="1" 
+AR Path="/5D0E87CE/5D102753" Ref="D301"  Part="1" 
+F 0 "D301" V 5254 3129 50  0000 L CNN
+F 1 "ZMM5234B" V 5345 3129 50  0000 L CNN
+F 2 "Diodes_SMD:D_MiniMELF" H 5300 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/345/zmm52xxb-34158.pdf" H 5300 3050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Rectron/ZMM5234B?qs=sGAEpiMZZMtQ8nqTKtFS%2FCcEpspHpFkv27cm4fn%2F9uc%3D" V 5300 3050 50  0001 C CNN "Vendor"
+	1    5300 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5D0D215A
+P 5850 3500
+AR Path="/5D0CD065/5D0D215A" Ref="R?"  Part="1" 
+AR Path="/5D0E87CE/5D0D215A" Ref="R301"  Part="1" 
+F 0 "R301" H 5920 3546 50  0000 L CNN
+F 1 "R" H 5920 3455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3250 5300 3200
+Wire Wire Line
+	5300 2900 5300 2850
+Wire Wire Line
+	5300 2850 5650 2850
+Wire Wire Line
+	5300 2850 4950 2850
+Connection ~ 5300 2850
+Text HLabel 4950 2850 0    50   Output ~ 0
+Vout+
+Text HLabel 6750 3700 2    50   Input ~ 0
+Vin-
+Text Notes 6000 3050 0    50   ~ 0
+VGS_MAX = 10V
+Wire Wire Line
+	6050 2850 6750 2850
+Wire Wire Line
+	5850 3650 5850 3700
+Wire Wire Line
+	5850 3700 6750 3700
+Wire Wire Line
+	5850 3700 5550 3700
+Connection ~ 5850 3700
+Text HLabel 5000 3700 0    50   Output ~ 0
+Vout-
+Text Notes 4900 3400 0    50   ~ 0
+Izener = 1mA
+Text Notes 6750 3150 0    50   ~ 0
+Vin_max = -27V\nVin_min = -12V
+Text Notes 6050 3500 0    50   ~ 0
+10-20k looks like itll be ok
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5D0D4309
+P 5450 3700
+AR Path="/5D0CD065/5D0D4309" Ref="NT?"  Part="1" 
+AR Path="/5D0E87CE/5D0D4309" Ref="NT301"  Part="1" 
+F 0 "NT301" H 5450 3881 50  0000 C CNN
+F 1 "Net-Tie_2" H 5450 3790 50  0000 C CNN
+F 2 "Oddities:NetTie-I_SMD" H 5450 3700 50  0001 C CNN
+F 3 "~" H 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3700 5000 3700
+Text Notes 5650 2850 0    50   ~ 0
+S        D
+Wire Wire Line
+	5850 3250 5850 3350
+Wire Wire Line
+	5850 3150 5850 3250
+Connection ~ 5850 3250
+Wire Wire Line
+	5850 3250 5300 3250
+$EndSCHEMATC

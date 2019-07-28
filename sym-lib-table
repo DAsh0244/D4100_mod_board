@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name custom_net_ties)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/custom_net_ties.lib)(options "")(descr ""))
+  (lib (name custom_switches)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/custom_switches.lib)(options "")(descr ""))
+  (lib (name net-tie)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/net-tie.lib)(options "")(descr ""))
+  (lib (name switchers)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/switchers.lib)(options "")(descr ""))
+  (lib (name TPS55340PWPR)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/TPS55340PWPR.lib)(options "")(descr ""))
+  (lib (name TPS55340RTER)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/TPS55340RTER.lib)(options "")(descr ""))
+  (lib (name LM25088MH-1)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/LM25088MH-1.lib)(options "")(descr ""))
+  (lib (name CSD18543Q3A)(type Legacy)(uri ${KIPRJMOD}/libs/symbol/CSD18543Q3A.lib)(options "")(descr ""))
+  (lib (name d4100_mod_board_full-rescue)(type Legacy)(uri ${KIPRJMOD}/d4100_mod_board_full-rescue.lib)(options "")(descr ""))
+)
