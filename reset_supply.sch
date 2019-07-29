@@ -14,761 +14,493 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9950 2950 2    50   Output ~ 0
-Vout-
-Text HLabel 10000 5100 2    50   Output ~ 0
-Vout+
-$Comp
-L device:C_Small C?
-U 1 1 5D19AE12
-P 6850 2600
-AR Path="/5D0C1156/5D19AE12" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE12" Ref="C208"  Part="1" 
-F 0 "C208" V 6621 2600 50  0000 C CNN
-F 1 "100n" V 6712 2600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6850 2600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf" H 6850 2600 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/KEMET/C0805C104K1RECAUTO?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPrbWuDAPvXf%252BKpSbw01Shgg%3D%3D" V 6850 2600 50  0001 C CNN "Vendor"
-	1    6850 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L device:D_Schottky D?
-U 1 1 5D19AE1E
-P 7000 3150
-AR Path="/5D0C1156/5D19AE1E" Ref="D?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE1E" Ref="D201"  Part="1" 
-F 0 "D201" V 6954 3229 50  0000 L CNN
-F 1 "SS3H10HE3_B/H" V 7045 3229 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMC" H 7000 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/ss3h9-339659.pdf" H 7000 3150 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/SS3H10HE3_B-H?qs=sGAEpiMZZMtQ8nqTKtFS%2FFFrCR38i76zFLN0%2Ff%2Fs6t%252B7sAenBEKaxA%3D%3D" V 7000 3150 50  0001 C CNN "Vendor"
-	1    7000 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6700 3350 6750 3350
-Wire Wire Line
-	7000 3350 7000 3300
-Wire Wire Line
-	7000 3400 7000 3350
-Connection ~ 7000 3350
-Wire Wire Line
-	7000 3750 7000 3700
-Wire Wire Line
-	6700 2950 6750 2950
-Wire Wire Line
-	7000 3000 7000 2950
-Connection ~ 7000 2950
-Wire Wire Line
-	6700 2600 6750 2600
-$Comp
-L device:C C?
-U 1 1 5D19AE98
-P 7350 4950
-AR Path="/5D0C1156/5D19AE98" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE98" Ref="C209"  Part="1" 
-F 0 "C209" V 7098 4950 50  0000 C CNN
-F 1 "14p" V 7189 4950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7388 4800 50  0001 C CNN
-F 3 "" H 7350 4950 50  0001 C CNN
-F 4 "" V 7350 4950 50  0001 C CNN "Vendor"
-	1    7350 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L device:R R?
-U 1 1 5D19AE9E
-P 7200 4600
-AR Path="/5D0C1156/5D19AE9E" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE9E" Ref="R206"  Part="1" 
-F 0 "R206" V 6993 4600 50  0000 C CNN
-F 1 "36k5" V 7084 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7130 4600 50  0001 C CNN
-F 3 "" H 7200 4600 50  0001 C CNN
-F 4 "" V 7200 4600 50  0001 C CNN "Vendor"
-	1    7200 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5D19AEA4
-P 7550 4600
-AR Path="/5D0C1156/5D19AEA4" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEA4" Ref="C210"  Part="1" 
-F 0 "C210" V 7298 4600 50  0000 C CNN
-F 1 "150p" V 7389 4600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7588 4450 50  0001 C CNN
-F 3 "" H 7550 4600 50  0001 C CNN
-F 4 "" V 7550 4600 50  0001 C CNN "Vendor"
-	1    7550 4600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6700 4450 6750 4450
-Wire Wire Line
-	6750 4450 6750 4600
-Wire Wire Line
-	6750 4950 7200 4950
-Wire Wire Line
-	7050 4600 6750 4600
-Connection ~ 6750 4600
-Wire Wire Line
-	6750 4600 6750 4950
-Wire Wire Line
-	7350 4600 7400 4600
-Wire Wire Line
-	7500 4950 7900 4950
-Wire Wire Line
-	7900 4950 7900 4600
-Wire Wire Line
-	7900 4200 6700 4200
-Wire Wire Line
-	7700 4600 7900 4600
-Connection ~ 7900 4600
-Wire Wire Line
-	7900 4600 7900 4200
-$Comp
-L device:R R?
-U 1 1 5D19AEB7
-P 8350 4700
-AR Path="/5D0C1156/5D19AEB7" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEB7" Ref="R209"  Part="1" 
-F 0 "R209" H 8420 4746 50  0000 L CNN
-F 1 "1k65" H 8420 4655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 4700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-45987.pdf" H 8350 4700 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K65FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G1pUsqF1xYA8%3D" H 8350 4700 50  0001 C CNN "Vendor"
-	1    8350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R?
-U 1 1 5D19AEC3
-P 7900 3550
-AR Path="/5D0C1156/5D19AEC3" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEC3" Ref="R207"  Part="1" 
-F 0 "R207" H 7970 3596 50  0000 L CNN
-F 1 "3k4" H 7970 3505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7830 3550 50  0001 C CNN
-F 3 "" H 7900 3550 50  0001 C CNN
-F 4 "" H 7900 3550 50  0001 C CNN "Vendor"
-	1    7900 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5D19AEC9
-P 7900 3950
-AR Path="/5D0C1156/5D19AEC9" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEC9" Ref="C211"  Part="1" 
-F 0 "C211" H 7785 3904 50  0000 R CNN
-F 1 "130p" H 7785 3995 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7938 3800 50  0001 C CNN
-F 3 "~" H 7900 3950 50  0001 C CNN
-	1    7900 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:L L?
-U 1 1 5D19AECF
-P 7950 2950
-AR Path="/5D0C1156/5D19AECF" Ref="L?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AECF" Ref="L201"  Part="1" 
-F 0 "L201" V 8140 2950 50  0000 C CNN
-F 1 "2u2" V 8049 2950 50  0000 C CNN
-F 2 "d4100_mod_board:WE-LHMI_7030" H 7950 2950 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74437346022.pdf" H 7950 2950 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Wurth-Elektronik/74437346022?qs=%2Fha2pyFadujVolTX%252B03gGnsqZWylp7wjQAac%252BMjkYmF1Lj4S%252BIF2ag%3D%3D" V 7950 2950 50  0001 C CNN "Vendor"
-	1    7950 2950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8100 2950 8350 2950
-Wire Wire Line
-	8350 4850 8350 5100
-Wire Wire Line
-	7900 3700 7900 3800
-Wire Wire Line
-	7900 3400 7900 3300
-Wire Wire Line
-	7900 3300 8350 3300
-Wire Wire Line
-	8350 2950 8350 3300
-Connection ~ 8350 3300
-Wire Wire Line
-	8350 3300 8350 3500
-Wire Wire Line
-	7900 4100 7900 4200
-Wire Wire Line
-	7900 4200 8350 4200
-Wire Wire Line
-	8350 3800 8350 4200
-Connection ~ 8350 4200
-Wire Wire Line
-	8350 4200 8350 4550
-Connection ~ 7900 4200
-Wire Wire Line
-	6700 4000 7650 4000
-Wire Wire Line
-	7650 4000 7650 3800
-Wire Wire Line
-	7650 3300 7900 3300
-Connection ~ 7900 3300
-$Comp
-L device:C C?
-U 1 1 5D19AEEA
-P 9250 3950
-AR Path="/5D0C1156/5D19AEEA" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEEA" Ref="C213"  Part="1" 
-F 0 "C213" H 9368 3996 50  0000 L CNN
-F 1 "15u" H 9368 3905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_2220_HandSoldering" H 9288 3800 50  0001 C CNN
-F 3 "" H 9250 3950 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/TDK/C5750X7S2A156M250KB?qs=NRhsANhppD%2F9BqQqutmwLg%3D%3D&gclid=CjwKCAjw9dboBRBUEiwA7VrrzU7tXYFMjTybGNcfVGWB8Hylj6KHG8oeUZ5JQIP7E31Nbp3UCpecuhoCYw0QAvD_BwE" H 9250 3950 50  0001 C CNN "Vendor"
-	1    9250 3950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 2950 9250 3800
-Wire Wire Line
-	9250 4100 9250 5100
-$Comp
-L device:C C?
-U 1 1 5D19AEF2
-P 9700 3950
-AR Path="/5D0C1156/5D19AEF2" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEF2" Ref="C214"  Part="1" 
-F 0 "C214" H 9585 3996 50  0000 R CNN
-F 1 "680n" H 9585 3905 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9738 3800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" H 9700 3950 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/TDK/C2012X5R1H225K125AB?qs=%2Fha2pyFadujDqt6GaOhNLVpp11dUEsVZxZnCFtuBjVuJ0r80pejQSmuumDOAAP9k" H 9700 3950 50  0001 C CNN "Vendor"
-	1    9700 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 3800 9700 2950
-Wire Wire Line
-	9700 4100 9700 5100
-Wire Wire Line
-	8350 2950 9250 2950
-Connection ~ 8350 2950
-Connection ~ 9250 2950
-Connection ~ 9700 2950
-Wire Wire Line
-	9700 2950 9950 2950
-Wire Wire Line
-	10000 5100 9700 5100
-Connection ~ 9700 5100
-Connection ~ 9250 5100
-Wire Wire Line
-	8350 5100 7000 5100
-Connection ~ 8350 5100
-Wire Wire Line
-	1550 3100 1550 3400
-Connection ~ 1300 3400
-Wire Wire Line
-	1300 3400 1550 3400
-Wire Wire Line
-	1300 3100 1300 3400
 Text HLabel 900  2550 0    50   Input ~ 0
 Vin+
-Wire Wire Line
-	8800 2000 8800 2050
-Wire Wire Line
-	8350 5100 8800 5100
-Connection ~ 8800 5100
-Wire Wire Line
-	8800 5100 9250 5100
-Wire Wire Line
-	8800 2350 8800 5100
-Wire Wire Line
-	6700 2850 7100 2850
-Wire Wire Line
-	7100 2850 7100 2600
-Wire Wire Line
-	6950 2600 7000 2600
-Wire Wire Line
-	7000 2600 7000 2950
-Wire Wire Line
-	6700 3750 6750 3750
-Wire Wire Line
-	7000 3750 7000 5100
-Connection ~ 7000 3750
-$Comp
-L device:R R?
-U 1 1 5D173236
-P 7000 3550
-AR Path="/5D0C1156/5D173236" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D173236" Ref="R205"  Part="1" 
-F 0 "R205" H 7070 3596 50  0000 L CNN
-F 1 "10m" H 7070 3505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0612" V 6930 3550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/bourns_02112019_CFG-1531776.pdf" H 7000 3550 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Bourns/CFG0612-FX-R010ELF?qs=sGAEpiMZZMtlleCFQhR%2FzXAGiOCRCr1IBUpW%252BAoAQYZvaDnSUqur5A%3D%3D" H 7000 3550 50  0001 C CNN "Vendor"
-	1    7000 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5D18BD0B
-P 8800 2200
-AR Path="/5D0C1156/5D18BD0B" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D18BD0B" Ref="C212"  Part="1" 
-F 0 "C212" H 8892 2246 50  0000 L CNN
-F 1 "1u" H 8892 2155 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8800 2200 50  0001 C CNN
-F 3 "" H 8800 2200 50  0001 C CNN
-F 4 "" H 8800 2200 50  0001 C CNN "Vendor"
-	1    8800 2200
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	8650 5200 8650 3400
-Wire Notes Line
-	8650 3400 8250 3400
-Wire Notes Line
-	8250 3400 8250 5200
-Wire Notes Line
-	8250 5200 8650 5200
-Text Notes 7950 5300 0    50   ~ 0
-Modify to tune voltage
-Text Label 7400 4200 0    50   ~ 0
-fb
-Text Label 7200 4000 0    50   ~ 0
-out_sense
-$Comp
-L device:Net-Tie_2 NT204
-U 1 1 5D243823
-P 7650 3700
-F 0 "NT204" V 7600 3550 50  0000 L CNN
-F 1 "Net-Tie_2" V 7700 3300 50  0000 L CNN
-F 2 "Oddities:NetTie-I_SMD" H 7650 3700 50  0001 C CNN
-F 3 "~" H 7650 3700 50  0001 C CNN
-	1    7650 3700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7650 3600 7650 3300
-$Comp
-L device:Net-Tie_2 NT202
-U 1 1 5D245BD5
-P 6850 3350
-F 0 "NT202" H 6750 3400 50  0000 C CNN
-F 1 "Net-Tie_2" H 6750 3300 50  0000 C CNN
-F 2 "net_ties:NET-TIE-0.3mm" H 6850 3350 50  0001 C CNN
-F 3 "~" H 6850 3350 50  0001 C CNN
-	1    6850 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 3350 7000 3350
-Wire Wire Line
-	6950 3750 7000 3750
-Text Label 6700 3350 1    50   ~ 0
-sense+
-Text Label 6700 3750 1    50   ~ 0
-sense-
-Text Label 7050 3350 0    50   ~ 0
-shunt+
-Wire Wire Line
-	7050 3350 7000 3350
-Text Label 7150 2950 0    50   ~ 0
-sw_loop
-Text Label 6700 2850 0    50   ~ 0
-gate_drive
-Text Label 6750 2600 1    50   ~ 0
-bootstrap
-Text Label 6750 4600 0    50   ~ 0
-comp
-Wire Wire Line
-	1550 2800 1550 2550
-Wire Wire Line
-	900  2550 1300 2550
-Wire Wire Line
-	1300 2550 1550 2550
-Connection ~ 1300 2550
-Wire Wire Line
-	1300 2550 1300 2800
-$Comp
-L device:C C?
-U 1 1 5D19AE4F
-P 1550 2950
-AR Path="/5D0C1156/5D19AE4F" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE4F" Ref="C202"  Part="1" 
-F 0 "C202" H 1665 2996 50  0000 L CNN
-F 1 "100n" H 1665 2905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1588 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1550 2950 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ474KD-T?qs=%2Fha2pyFadujqVbgFjaatoGV0w6pr7fhflB5drHSyxxA7io3xAuN4RA%3D%3D" H 1550 2950 50  0001 C CNN "Vendor"
-	1    1550 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 1550 2550
-Wire Wire Line
-	1550 2000 1550 2550
-Connection ~ 7000 5100
-Text Label 3000 2550 0    50   ~ 0
-vin
-$Comp
-L device:Net-Tie_2 NT201
-U 1 1 5D18D312
-P 2450 2550
-F 0 "NT201" V 2400 2400 50  0000 L CNN
-F 1 "Net-Tie_2" V 2500 2150 50  0000 L CNN
-F 2 "Oddities:NetTie-I_SMD" H 2450 2550 50  0001 C CNN
-F 3 "~" H 2450 2550 50  0001 C CNN
-	1    2450 2550
-	-1   0    0    1   
-$EndComp
-Text Label 3550 3200 0    50   ~ 0
-dither
-Text Label 3050 3100 0    50   ~ 0
-enable
-Text Label 4800 4100 0    50   ~ 0
-ss
-Text Label 4550 4000 0    50   ~ 0
-rt
-Text Label 4300 3850 0    50   ~ 0
-ramp
-Text Label 4050 3400 0    50   ~ 0
-vcc
-Wire Wire Line
-	1550 2550 2350 2550
-Connection ~ 3950 5100
-Wire Wire Line
-	3950 4500 3950 5100
-Wire Wire Line
-	5100 4200 5050 4200
-Wire Wire Line
-	7000 5100 5050 5100
-Connection ~ 5050 5100
-Wire Wire Line
-	5050 4200 5050 4300
-Wire Wire Line
-	5050 4300 5050 5100
-Connection ~ 5050 4300
-Wire Wire Line
-	5100 4300 5050 4300
-Wire Wire Line
-	2550 2550 2700 2550
-Wire Wire Line
-	2700 2550 5100 2550
-Connection ~ 2700 2550
-Wire Wire Line
-	2700 2650 2700 2550
-Wire Wire Line
-	2700 3100 2700 2950
-Wire Wire Line
-	2700 3100 5100 3100
-Wire Wire Line
-	2150 3100 2700 3100
-Connection ~ 2700 3100
-$Comp
-L device:R R?
-U 1 1 5D19AE6B
-P 2700 2800
-AR Path="/5D0C1156/5D19AE6B" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE6B" Ref="R201"  Part="1" 
-F 0 "R201" H 2770 2846 50  0000 L CNN
-F 1 "10k" H 2770 2755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2630 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-45987.pdf" H 2700 2800 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GOIdKSeOTyFU%3D" H 2700 2800 50  0001 C CNN "Vendor"
-	1    2700 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 3200 3200 3200
-Wire Wire Line
-	3950 3400 5100 3400
-Wire Wire Line
-	3950 3500 3950 3400
-Connection ~ 3950 3400
-Wire Wire Line
-	3550 3400 3950 3400
-Wire Wire Line
-	3950 5100 4450 5100
-Connection ~ 4450 5100
-Wire Wire Line
-	4450 4300 4450 5100
-Wire Wire Line
-	4750 5100 5050 5100
-Wire Wire Line
-	4450 5100 4750 5100
-Connection ~ 4750 5100
-Wire Wire Line
-	4750 5100 4750 4600
-Wire Wire Line
-	3950 3850 3950 4200
-Wire Wire Line
-	5100 3850 3950 3850
-Connection ~ 3950 3850
-Wire Wire Line
-	3950 3700 3950 3850
-Wire Wire Line
-	4450 4000 5100 4000
-Wire Wire Line
-	4450 4100 4450 4000
-Wire Wire Line
-	4750 4100 4750 4400
-Wire Wire Line
-	5100 4100 4750 4100
-$Comp
-L device:R_Small R?
-U 1 1 5D19AE3D
-P 3950 3600
-AR Path="/5D0C1156/5D19AE3D" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE3D" Ref="R203"  Part="1" 
-F 0 "R203" H 4009 3646 50  0000 L CNN
-F 1 "41k2" H 4009 3555 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 3600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-45987.pdf" H 3950 3600 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080541K2FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GOBdSvjTd6LE%3D" H 3950 3600 50  0001 C CNN "Vendor"
-	1    3950 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R_Small R?
-U 1 1 5D19AE37
-P 4450 4200
-AR Path="/5D0C1156/5D19AE37" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE37" Ref="R204"  Part="1" 
-F 0 "R204" H 4509 4246 50  0000 L CNN
-F 1 "4k75" H 4509 4155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4450 4200 50  0001 C CNN
-F 3 "" H 4450 4200 50  0001 C CNN
-F 4 "" H 4450 4200 50  0001 C CNN "Vendor"
-	1    4450 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C_Small C?
-U 1 1 5D19AE31
-P 4750 4500
-AR Path="/5D0C1156/5D19AE31" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE31" Ref="C207"  Part="1" 
-F 0 "C207" H 4658 4546 50  0000 R CNN
-F 1 "47n" H 4658 4455 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4750 4500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf" H 4750 4500 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Yageo/CC0805KRX7R9BB104?qs=%2Fha2pyFadujHGX9Y28fVn258q4UeuEqTSPnIJC5Efl%2F6LQg4v4mUgA%3D%3D" H 4750 4500 50  0001 C CNN "Vendor"
-	1    4750 4500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5D195789
-P 3550 4300
-AR Path="/5D0C1156/5D195789" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D195789" Ref="C205"  Part="1" 
-F 0 "C205" H 3458 4346 50  0000 R CNN
-F 1 "100n" H 3458 4255 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3550 4300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf" H 3550 4300 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Yageo/CC0805KRX7R9BB104?qs=%2Fha2pyFadujHGX9Y28fVn258q4UeuEqTSPnIJC5Efl%2F6LQg4v4mUgA%3D%3D" H 3550 4300 50  0001 C CNN "Vendor"
-	1    3550 4300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5D187887
-P 3950 4350
-AR Path="/5D0C1156/5D187887" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D187887" Ref="C206"  Part="1" 
-F 0 "C206" H 4042 4396 50  0000 L CNN
-F 1 "110p" H 4042 4305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3950 4350 50  0001 C CNN
-F 3 "" H 3950 4350 50  0001 C CNN
-F 4 "" H 3950 4350 50  0001 C CNN "Vendor"
-	1    3950 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 3750 2150 3100
-Wire Wire Line
-	2150 4050 2150 5100
-Wire Wire Line
-	2150 5100 2700 5100
-Connection ~ 2700 5100
-Wire Wire Line
-	2700 4050 2700 5100
-Wire Wire Line
-	2700 3750 2700 3100
-$Comp
-L device:C C?
-U 1 1 5D19AE77
-P 2150 3900
-AR Path="/5D0C1156/5D19AE77" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE77" Ref="C203"  Part="1" 
-F 0 "C203" H 2265 3946 50  0000 L CNN
-F 1 "68n" H 2265 3855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 3750 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/KEMET/C0805C683K5RACAUTO?qs=sGAEpiMZZMs0AnBnWHyRQNchIam%2FLmo3rUMnj24R2BQ%3D" H 2150 3900 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/KEMET/C0805C683K5RACAUTO?qs=sGAEpiMZZMs0AnBnWHyRQNchIam%2FLmo3rUMnj24R2BQ%3D" H 2150 3900 50  0001 C CNN "Vendor"
-	1    2150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R?
-U 1 1 5D19AE71
-P 2700 3900
-AR Path="/5D0C1156/5D19AE71" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE71" Ref="R202"  Part="1" 
-F 0 "R202" H 2770 3946 50  0000 L CNN
-F 1 "3k57" H 2770 3855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2630 3900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 2700 3900 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF3571V?qs=%2Fha2pyFaduirjrsza3agtlHIwXEGcTr8DYL9NLmEzgbddCRIkKq21g%3D%3D" H 2700 3900 50  0001 C CNN "Vendor"
-	1    2700 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 3200 3200 3850
-Wire Wire Line
-	3550 4150 3550 3400
-Wire Wire Line
-	2700 5100 3200 5100
-Connection ~ 3200 5100
-Wire Wire Line
-	3200 4150 3200 5100
-Wire Wire Line
-	3550 5100 3950 5100
-Wire Wire Line
-	3200 5100 3550 5100
-Connection ~ 3550 5100
-Wire Wire Line
-	3550 4450 3550 5100
-$Comp
-L device:C C?
-U 1 1 5D19AE49
-P 3200 4000
-AR Path="/5D0C1156/5D19AE49" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AE49" Ref="C204"  Part="1" 
-F 0 "C204" H 3315 4046 50  0000 L CNN
-F 1 "22n" H 3315 3955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3238 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3200 4000 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/KEMET/C0805C223K5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQGePoPkXM4XXucrrggfGQyM%3D" H 3200 4000 50  0001 C CNN "Vendor"
-	1    3200 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 2600 7250 2600
-$Comp
-L CSD18543Q3A:CSD18543Q3A Q201
-U 1 1 5D17ED69
-P 7550 2500
-F 0 "Q201" H 7758 2546 50  0000 L CNN
-F 1 "CSD18543Q3A" H 7758 2455 50  0000 L CNN
-F 2 "SON65P300X315X90-9N" H 7550 2500 50  0001 L BNN
-F 3 "" H 7550 2500 50  0001 L BNN
-F 4 "Texas Instruments" H 7550 2500 50  0001 L BNN "Field4"
-F 5 "296-47321-1-ND" H 7550 2500 50  0001 L BNN "Field5"
-F 6 "CSD18543Q3A" H 7550 2500 50  0001 L BNN "Field6"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/CSD18543Q3A/296-47321-1-ND/7688331?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7550 2500 50  0001 L BNN "Field7"
-F 8 "VSON-8 Texas Instruments" H 7550 2500 50  0001 L BNN "Field8"
-	1    7550 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 2950 7650 2950
-Wire Wire Line
-	1550 2000 7650 2000
-Wire Wire Line
-	7650 2900 7650 2950
-Connection ~ 7650 2950
-Wire Wire Line
-	7650 2950 7800 2950
-Wire Wire Line
-	7650 2000 7650 2100
-$Comp
-L device:C C?
-U 1 1 5D1A396B
-P 1300 2950
-AR Path="/5D0C1156/5D1A396B" Ref="C?"  Part="1" 
-AR Path="/5D0C0ECC/5D1A396B" Ref="C201"  Part="1" 
-F 0 "C201" H 1415 2996 50  0000 L CNN
-F 1 "820n" H 1415 2905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 2800 50  0001 C CNN
-F 3 "" H 1300 2950 50  0001 C CNN
-F 4 "" H 1300 2950 50  0001 C CNN "Vendor"
-	1    1300 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L device:R R?
-U 1 1 5D19AEBD
-P 8350 3650
-AR Path="/5D0C1156/5D19AEBD" Ref="R?"  Part="1" 
-AR Path="/5D0C0ECC/5D19AEBD" Ref="R208"  Part="1" 
-F 0 "R208" H 8420 3696 50  0000 L CNN
-F 1 "35k7" H 8420 3605 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 3650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8350 3650 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Panasonic/ERJ-6ENF3572V?qs=%2Fha2pyFaduirjrsza3agtoEK2xK3r7M3%252BqFGRiqMqB2Tqor%252B43SHsw%3D%3D" H 8350 3650 50  0001 C CNN "Vendor"
-	1    8350 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 2950 9700 2950
-Wire Wire Line
-	9250 5100 9700 5100
 Text HLabel 1600 3400 2    50   Output ~ 0
 Vout-
 Text HLabel 900  3400 0    50   Input ~ 0
 Vin-
 $Comp
-L device:Net-Tie_2 NT203
-U 1 1 5D24617A
-P 6850 3750
-F 0 "NT203" H 6800 3800 50  0000 C CNN
-F 1 "Net-Tie_2" H 6800 3700 50  0000 C CNN
-F 2 "net_ties:NET-TIE-0.3mm" H 6850 3750 50  0001 C CNN
-F 3 "~" H 6850 3750 50  0001 C CNN
-	1    6850 3750
+L SamacSys_Parts:LM43601PWPR U201
+U 1 1 5D401360
+P 3600 2550
+F 0 "U201" H 4300 2815 50  0000 C CNN
+F 1 "LM43601PWPR" H 4300 2724 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP65P640X120-17N" H 4850 2650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/lm43601" H 4850 2550 50  0001 L CNN
+F 4 "SIMPLE SWITCHER 3.5V to 36V, 1A Synchronous Step-Down Voltage Converter" H 4850 2450 50  0001 L CNN "Description"
+F 5 "1.2" H 4850 2350 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4850 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "LM43601PWPR" H 4850 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LM43601PWPR" H 4850 2050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-LM43601PWPR" H 4850 1950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4850 1850 50  0001 L CNN "RS Part Number"
+F 11 "" H 4850 1750 50  0001 L CNN "RS Price/Stock"
+	1    3600 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 3400 1550 3400
-Connection ~ 1550 3400
+	900  3400 1050 3400
+Wire Wire Line
+	900  2550 1050 2550
 $Comp
-L device:Net-Tie_2 NT206
-U 1 1 5D210CA0
-P 6850 2950
-F 0 "NT206" V 6800 2800 50  0000 L CNN
-F 1 "Net-Tie_2" V 6900 2550 50  0000 L CNN
-F 2 "Oddities:NetTie-I_SMD" H 6850 2950 50  0001 C CNN
-F 3 "~" H 6850 2950 50  0001 C CNN
-	1    6850 2950
+L device:C C202
+U 1 1 5D407F4F
+P 1400 3000
+F 0 "C202" H 1515 3046 50  0000 L CNN
+F 1 "22u" H 1515 2955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1438 2850 50  0001 C CNN
+F 3 "~" H 1400 3000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata/GRM32ER61C226ME20L/?qs=HkGFrfc5riBeJtarl5CPzg%3D%3D&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0KF6AfDfabdxr02yOgihx2R0Uvg-qnD9VgowjwK6CU8cLzDABy6CzAaAtyBEALw_wcB" H 1400 3000 50  0001 C CNN "Vendor"
+	1    1400 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 2950 7000 2950
-Text Label 6700 2950 2    50   ~ 0
-sw_in
-Connection ~ 7650 2000
-Wire Wire Line
-	7650 2000 8800 2000
 $Comp
-L d4100_mod_board_full-rescue:LM25088MH-1-LM25088MH-1 U201
-U 1 1 5D170914
-P 5900 3400
-AR Path="/5D170914" Ref="U201"  Part="1" 
-AR Path="/5D0C0ECC/5D170914" Ref="U201"  Part="1" 
-F 0 "U201" H 5900 4465 50  0000 C CNN
-F 1 "LM25088MH-1" H 5900 4374 50  0000 C CNN
-F 2 "LM25088MH-1:SOP65P640X110-17N" H 5900 3400 50  0001 L BNN
-F 3 "" H 5900 3400 50  0001 L BNN
-F 4 "Texas Instruments" H 5900 3400 50  0001 L BNN "Field4"
-F 5 "LM25088MH-1/NOPB-ND" H 5900 3400 50  0001 L BNN "Field5"
-F 6 "LM25088MH-1/NOPB" H 5900 3400 50  0001 L BNN "Field6"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/LM25088MH-1-NOPB/LM25088MH-1-NOPB-ND/1991972?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5900 3400 50  0001 L BNN "Field7"
-F 8 "HTSSOP-16 Texas Instruments" H 5900 3400 50  0001 L BNN "Field8"
-	1    5900 3400
+L device:C C203
+U 1 1 5D409253
+P 2150 3050
+F 0 "C203" H 2265 3096 50  0000 L CNN
+F 1 "4u7" H 2265 3005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 2900 50  0001 C CNN
+F 3 "~" H 2150 3050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM21BC71H475KE11L?qs=sGAEpiMZZMs0AnBnWHyRQFv7x1xn%252BYFd%252BAjE1mmPZh5JIMUveN6BAw%3D%3D" H 2150 3050 50  0001 C CNN "Vendor"
+	1    2150 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  3400 1300 3400
+	3600 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3300
+Wire Wire Line
+	3600 3500 3550 3500
+Wire Wire Line
+	3600 3400 3550 3400
+Connection ~ 3550 3400
+Wire Wire Line
+	3550 3400 3550 3500
+Wire Wire Line
+	3600 3300 3550 3300
+Connection ~ 3550 3300
+Wire Wire Line
+	3550 3300 3550 3400
+Wire Wire Line
+	1400 2550 2150 2550
+Connection ~ 1400 2550
+Wire Wire Line
+	3600 2650 3550 2650
+Wire Wire Line
+	3550 2650 3550 2550
+Connection ~ 3550 2550
+Wire Wire Line
+	3550 2550 3600 2550
+Wire Wire Line
+	3550 2650 3550 2750
+Wire Wire Line
+	3550 2750 3600 2750
+Connection ~ 3550 2650
+$Comp
+L device:C_Small C205
+U 1 1 5D4167A5
+P 5200 2550
+F 0 "C205" V 4971 2550 50  0000 C CNN
+F 1 "470n" V 5062 2550 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5200 2550 50  0001 C CNN
+F 3 "~" H 5200 2550 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ474KD-T?qs=PzICbMaShUcnyRLJVHq5%252BA%3D%3D" V 5200 2550 50  0001 C CNN "Vendor"
+	1    5200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:L L201
+U 1 1 5D416C85
+P 5800 2700
+F 0 "L201" V 5990 2700 50  0000 C CNN
+F 1 "33u" V 5899 2700 50  0000 C CNN
+F 2 "SamacSys_Parts:SRN4012TA" H 5800 2700 50  0001 C CNN
+F 3 "~" H 5800 2700 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Bourns/SRN3015-330M?qs=opBjA1TV902tvMvccj590Q%3D%3D" V 5800 2700 50  0001 C CNN "Vendor"
+	1    5800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R_Small R201
+U 1 1 5D417CCA
+P 5350 2950
+F 0 "R201" V 5154 2950 50  0000 C CNN
+F 1 "R_Small" V 5245 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5350 2950 50  0001 C CNN
+F 3 "~" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C206
+U 1 1 5D419C01
+P 5500 3400
+F 0 "C206" H 5615 3446 50  0000 L CNN
+F 1 "4u7" H 5615 3355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5538 3250 50  0001 C CNN
+F 3 "~" H 5500 3400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ475KG-T?qs=PzICbMaShUfa044ELrBgRg%3D%3D&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0LSS7oH0C5zCS-FDba_rDCji67HTHapJlYj5brtUDGlW6jzWG8qcxIaAvc5EALw_wcB" H 5500 3400 50  0001 C CNN "Vendor"
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C207
+U 1 1 5D41B143
+P 6350 2900
+F 0 "C207" H 6465 2946 50  0000 L CNN
+F 1 "220p" H 6465 2855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6388 2750 50  0001 C CNN
+F 3 "~" H 6350 2900 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/KEMET/C0805C221J5GAC?qs=sGAEpiMZZMs0AnBnWHyRQI9zuYIiQALC5u8FH55cggA%3D" H 6350 2900 50  0001 C CNN "Vendor"
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R202
+U 1 1 5D41B92A
+P 6500 3500
+F 0 "R202" H 6570 3546 50  0000 L CNN
+F 1 "39k" H 6570 3455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6430 3500 50  0001 C CNN
+F 3 "~" H 6500 3500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080539K2FKEA?qs=kJXytlGtIWnvKuNiljvtYg%3D%3D" H 6500 3500 50  0001 C CNN "Vendor"
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_POT RV201
+U 1 1 5D41C76C
+P 6700 3200
+F 0 "RV201" H 6630 3154 50  0000 R CNN
+F 1 "R_POT" H 6630 3245 50  0000 R CNN
+F 2 "SamacSys_Parts:PVG5A502C03R00" H 6700 3200 50  0001 C CNN
+F 3 "~" H 6700 3200 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Bourns/PVG5A503C03R00?qs=sGAEpiMZZMvygUB3GLcD7qR9snKKmVdvIE9Jn2CJUhw%3D" H 6700 3200 50  0001 C CNN "Vendor"
+	1    6700 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 3200 6500 3200
+Wire Wire Line
+	6500 3200 6500 3350
+Wire Wire Line
+	6350 3050 6350 3200
+Wire Wire Line
+	6350 3200 6500 3200
+Connection ~ 6500 3200
+Wire Wire Line
+	6350 2750 6350 2700
+Wire Wire Line
+	6350 2700 6700 2700
+Wire Wire Line
+	6700 2700 6700 2750
+NoConn ~ 6700 3350
+Wire Wire Line
+	5000 3200 5950 3200
+Wire Wire Line
+	5000 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 3250
+Connection ~ 6350 3200
+Wire Wire Line
+	5000 2700 5100 2700
+Wire Wire Line
+	5950 2700 6050 2700
+Connection ~ 6350 2700
+Wire Wire Line
+	5000 2950 5250 2950
+Wire Wire Line
+	5450 2950 6050 2950
+Wire Wire Line
+	6050 2950 6050 2700
+Connection ~ 6050 2700
+Wire Wire Line
+	6050 2700 6150 2700
+Wire Wire Line
+	5500 3100 6150 3100
+Wire Wire Line
+	6150 3100 6150 2700
+Connection ~ 5500 3100
+Connection ~ 6150 2700
+Wire Wire Line
+	6150 2700 6350 2700
+Wire Wire Line
+	5000 2550 5100 2550
+Wire Wire Line
+	5000 2800 5100 2800
+Wire Wire Line
+	5100 2800 5100 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	5100 2700 5500 2700
+Wire Wire Line
+	5300 2550 5500 2550
+Wire Wire Line
+	5500 2550 5500 2700
+Connection ~ 5500 2700
+Wire Wire Line
+	5500 2700 5650 2700
+$Comp
+L device:C C204
+U 1 1 5D42C25E
+P 3250 3200
+F 0 "C204" H 3365 3246 50  0000 L CNN
+F 1 "2u2" H 3365 3155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 3050 50  0001 C CNN
+F 3 "~" H 3250 3200 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/EMK212BJ225KG-T?qs=I6KAKw0tg2wY60Dl46zP7Q%3D%3D" H 3250 3200 50  0001 C CNN "Vendor"
+	1    3250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2950 3250 2950
+Wire Wire Line
+	3250 2950 3250 3050
+Wire Wire Line
+	1400 3150 1400 3400
+Connection ~ 1400 3400
+Wire Wire Line
+	1400 3400 1600 3400
+Wire Wire Line
+	1400 2850 1400 2550
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3750 5500 3750
+Connection ~ 3550 3750
+Wire Wire Line
+	3250 3750 3550 3750
+Wire Wire Line
+	3550 3500 3550 3750
+Connection ~ 3250 3750
+Wire Wire Line
+	2150 3750 3250 3750
+Wire Wire Line
+	3250 3350 3250 3750
+Text HLabel 8600 3750 2    50   Output ~ 0
+Vout+
+Wire Wire Line
+	5500 3550 5500 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	5500 3750 6500 3750
+Wire Wire Line
+	6500 3650 6500 3750
+Connection ~ 6500 3750
+Wire Wire Line
+	2150 2900 2150 2550
+Connection ~ 2150 2550
+Wire Wire Line
+	2150 2550 3550 2550
+Wire Wire Line
+	2150 3750 2150 3200
+Text HLabel 8550 2700 2    50   Output ~ 0
+Vout-
+Wire Wire Line
+	6700 2700 7350 2700
+Connection ~ 6700 2700
+$Comp
+L device:C C208
+U 1 1 5D44378E
+P 7350 3150
+F 0 "C208" H 7465 3196 50  0000 L CNN
+F 1 "10u" H 7465 3105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7388 3000 50  0001 C CNN
+F 3 "~" H 7350 3150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D" H 7350 3150 50  0001 C CNN "Vendor"
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3000 7350 2700
+Connection ~ 7350 2700
+Wire Wire Line
+	7350 2700 7700 2700
+Wire Wire Line
+	7350 3300 7350 3750
+Wire Wire Line
+	6500 3750 7350 3750
+Connection ~ 7350 3750
+NoConn ~ 5000 3450
+NoConn ~ 3600 3050
+NoConn ~ 3600 2850
+$Comp
+L conn:TEST_1P TP?
+U 1 1 5D45A9E3
+P 7350 2600
+AR Path="/5D0C1156/5D45A9E3" Ref="TP?"  Part="1" 
+AR Path="/5D0C0ECC/5D45A9E3" Ref="TP203"  Part="1" 
+F 0 "TP203" H 7408 2718 50  0000 L CNN
+F 1 "GND" H 7408 2627 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 7550 2600 50  0001 C CNN
+F 3 "" H 7550 2600 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2700 7350 2600
+$Comp
+L conn:TEST_1P TP?
+U 1 1 5D45DC98
+P 7350 3850
+AR Path="/5D0C1156/5D45DC98" Ref="TP?"  Part="1" 
+AR Path="/5D0C0ECC/5D45DC98" Ref="TP204"  Part="1" 
+F 0 "TP204" H 7292 3876 50  0000 R CNN
+F 1 "VRESET" H 7292 3967 50  0000 R CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7550 3850 50  0001 C CNN
+F 3 "" H 7550 3850 50  0001 C CNN
+	1    7350 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3850 7350 3750
+$Comp
+L conn:TEST_1P TP?
+U 1 1 5D46090E
+P 5500 2350
+AR Path="/5D0C1156/5D46090E" Ref="TP?"  Part="1" 
+AR Path="/5D0C0ECC/5D46090E" Ref="TP201"  Part="1" 
+F 0 "TP201" H 5558 2468 50  0000 L CNN
+F 1 "RESET_SW" H 5558 2377 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 5700 2350 50  0001 C CNN
+F 3 "" H 5700 2350 50  0001 C CNN
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2350 5500 2550
+Connection ~ 5500 2550
+$Comp
+L conn:TEST_1P TP?
+U 1 1 5D466E6F
+P 5950 3250
+AR Path="/5D0C1156/5D466E6F" Ref="TP?"  Part="1" 
+AR Path="/5D0C0ECC/5D466E6F" Ref="TP202"  Part="1" 
+F 0 "TP202" H 5892 3276 50  0000 R CNN
+F 1 "RESET_FB" H 5892 3367 50  0000 R CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6150 3250 50  0001 C CNN
+F 3 "" H 6150 3250 50  0001 C CNN
+	1    5950 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 3250 5950 3200
+Connection ~ 5950 3200
+Wire Wire Line
+	5950 3200 6350 3200
+Text Label 5050 2950 0    50   ~ 0
+pgood
+Text Label 5200 3200 0    50   ~ 0
+fb
+Text Label 3300 2950 0    50   ~ 0
+vcc
+Text Label 5000 2550 0    50   ~ 0
+boot
+Text Label 5100 2700 0    50   ~ 0
+sw_loop
+Wire Wire Line
+	7700 3000 7700 2700
+Wire Wire Line
+	8050 3000 8050 2700
+Wire Wire Line
+	8400 3000 8400 2700
+Connection ~ 8400 2700
+Wire Wire Line
+	8400 2700 8550 2700
+Connection ~ 8050 2700
+Wire Wire Line
+	8050 2700 8400 2700
+Connection ~ 7700 2700
+Wire Wire Line
+	7700 2700 8050 2700
+Wire Wire Line
+	7350 3750 7700 3750
+$Comp
+L device:C C209
+U 1 1 5D47C252
+P 7700 3150
+F 0 "C209" H 7815 3196 50  0000 L CNN
+F 1 "10u" H 7815 3105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7738 3000 50  0001 C CNN
+F 3 "~" H 7700 3150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D" H 7700 3150 50  0001 C CNN "Vendor"
+	1    7700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3300 7700 3750
+$Comp
+L device:C C210
+U 1 1 5D47DC14
+P 8050 3150
+F 0 "C210" H 8165 3196 50  0000 L CNN
+F 1 "10u" H 8165 3105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 8088 3000 50  0001 C CNN
+F 3 "~" H 8050 3150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D" H 8050 3150 50  0001 C CNN "Vendor"
+	1    8050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3300 8050 3750
+$Comp
+L device:C C211
+U 1 1 5D47F6E0
+P 8400 3150
+F 0 "C211" H 8515 3196 50  0000 L CNN
+F 1 "10u" H 8515 3105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 8438 3000 50  0001 C CNN
+F 3 "~" H 8400 3150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D" H 8400 3150 50  0001 C CNN "Vendor"
+	1    8400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3300 8400 3750
+Connection ~ 8050 3750
+Wire Wire Line
+	8050 3750 8400 3750
+Connection ~ 8400 3750
+Wire Wire Line
+	8400 3750 8600 3750
+Connection ~ 7700 3750
+Wire Wire Line
+	7700 3750 8050 3750
+$Comp
+L device:C C201
+U 1 1 5D486728
+P 1050 3000
+F 0 "C201" H 1165 3046 50  0000 L CNN
+F 1 "22u" H 1165 2955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1088 2850 50  0001 C CNN
+F 3 "~" H 1050 3000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Murata/GRM32ER61C226ME20L/?qs=HkGFrfc5riBeJtarl5CPzg%3D%3D&gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0KF6AfDfabdxr02yOgihx2R0Uvg-qnD9VgowjwK6CU8cLzDABy6CzAaAtyBEALw_wcB" H 1050 3000 50  0001 C CNN "Vendor"
+	1    1050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3150 1050 3400
+Wire Wire Line
+	1050 2850 1050 2550
+Connection ~ 1050 2550
+Wire Wire Line
+	1050 2550 1400 2550
+$Comp
+L device:R R?
+U 1 1 5D4951FB
+P 6700 2900
+AR Path="/5D0C1156/5D4951FB" Ref="R?"  Part="1" 
+AR Path="/5D0C0ECC/5D4951FB" Ref="R203"  Part="1" 
+F 0 "R203" H 6630 2946 50  0000 R CNN
+F 1 "1M" H 6630 2855 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 2900 50  0001 C CNN
+F 3 "~" H 6700 2900 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051M00FKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGubiAZzjveInE%3D" H 6700 2900 50  0001 C CNN "Vendor"
+	1    6700 2900
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1050 3400
+Wire Wire Line
+	1050 3400 1400 3400
 $EndSCHEMATC

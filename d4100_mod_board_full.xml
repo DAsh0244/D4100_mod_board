@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Danyal\Documents\SMU\d4100_mod_board_full\d4100_mod_board_full.sch</source>
+    <date>7/29/2019 13:02:16</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>d4100_mod_board_full.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Reset Supply/" tstamps="/5D0C0ECC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>reset_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Bias Supply/" tstamps="/5D0C1156/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bias_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F102">
+      <value>Polyfuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/fnsht-1128480.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/652-MF-NSHT016KX-2</field>
+      </fields>
+      <libsource lib="device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D094D46</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Pogo_Pin</value>
+      <footprint>d4100_mod_board:mill-max_0985-x-15-20-71-14-11-0</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conn" part="Conn_01x01_Male" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D3A3C</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>BZV55B27</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/395/BZV55B2V4_Series_F1804-1393200.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZV55B27-L1?qs=sGAEpiMZZMtQ8nqTKtFS%2FBBvJ4zpFTk1FiiiGr9sANE%3D</field>
+      </fields>
+      <libsource lib="device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D3A48</tstamp>
+    </comp>
+    <comp ref="F101">
+      <value>Polyfuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/fnsht-1128480.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/652-MF-NSHT016KX-2</field>
+      </fields>
+      <libsource lib="device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D3A4E</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4u7</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/40/tps-776850.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/AVX/TPSC475K035R0600?qs=%2Fha2pyFaduglChbUjLQpjYi93MlbS%2F0%2FZAO9XOBpQeTQ9QaxImqcQA%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A627A</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D21302E</tstamp>
+    </comp>
+    <comp ref="H105">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D215A7E</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_01x02_Female</value>
+      <footprint>d4100_mod_board:Phoenix_BCH-508HS-2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/651-5433668</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x02_Female" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0BFD6D</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>4u7</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/40/tps-776850.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/AVX/TPSC475K035R0600?qs=%2Fha2pyFaduglChbUjLQpjYi93MlbS%2F0%2FZAO9XOBpQeTQ9QaxImqcQA%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0930C4</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>BZV55B27</value>
+      <footprint>Diodes_SMD:D_MiniMELF</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/395/BZV55B2V4_Series_F1804-1393200.pdf</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Taiwan-Semiconductor/BZV55B27-L1?qs=sGAEpiMZZMtQ8nqTKtFS%2FBBvJ4zpFTk1FiiiGr9sANE%3D</field>
+      </fields>
+      <libsource lib="device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D09385A</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conn" part="Conn_01x02_Female" description="Generic connector, single row, 01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1F406C</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Pogo_Pin</value>
+      <footprint>d4100_mod_board:mill-max_0985-x-15-20-71-14-11-0</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conn" part="Conn_01x01_Male" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D092ECC</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CF687</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CFB18</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CFEB0</tstamp>
+    </comp>
+    <comp ref="H106">
+      <value>M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D20EB60</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D46EE39</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D46F51F</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LM43601PWPR</value>
+      <footprint>SamacSys_Parts:SOP65P640X120-17N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/lm43601</datasheet>
+      <fields>
+        <field name="Description">SIMPLE SWITCHER 3.5V to 36V, 1A Synchronous Step-Down Voltage Converter</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM43601PWPR</field>
+        <field name="Mouser Part Number">595-LM43601PWPR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-LM43601PWPR</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM43601PWPR" description="SIMPLE SWITCHER 3.5V to 36V, 1A Synchronous Step-Down Voltage Converter"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D401360</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata/GRM32ER61C226ME20L/?qs=HkGFrfc5riBeJtarl5CPzg%3D%3D&amp;gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0KF6AfDfabdxr02yOgihx2R0Uvg-qnD9VgowjwK6CU8cLzDABy6CzAaAtyBEALw_wcB</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D407F4F</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM21BC71H475KE11L?qs=sGAEpiMZZMs0AnBnWHyRQFv7x1xn%252BYFd%252BAjE1mmPZh5JIMUveN6BAw%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D409253</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>470n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ474KD-T?qs=PzICbMaShUcnyRLJVHq5%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D4167A5</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>33u</value>
+      <footprint>SamacSys_Parts:SRN4012TA</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Bourns/SRN3015-330M?qs=opBjA1TV902tvMvccj590Q%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="L" description="Inductor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D416C85</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D417CCA</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK212BJ475KG-T?qs=PzICbMaShUfa044ELrBgRg%3D%3D&amp;gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0LSS7oH0C5zCS-FDba_rDCji67HTHapJlYj5brtUDGlW6jzWG8qcxIaAvc5EALw_wcB</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D419C01</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>220p</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/KEMET/C0805C221J5GAC?qs=sGAEpiMZZMs0AnBnWHyRQI9zuYIiQALC5u8FH55cggA%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D41B143</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>39k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080539K2FKEA?qs=kJXytlGtIWnvKuNiljvtYg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D41B92A</tstamp>
+    </comp>
+    <comp ref="RV201">
+      <value>R_POT</value>
+      <footprint>SamacSys_Parts:PVG5A502C03R00</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Bourns/PVG5A503C03R00?qs=sGAEpiMZZMvygUB3GLcD7qR9snKKmVdvIE9Jn2CJUhw%3D</field>
+      </fields>
+      <libsource lib="device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D41C76C</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>2u2</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Taiyo-Yuden/EMK212BJ225KG-T?qs=I6KAKw0tg2wY60Dl46zP7Q%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D42C25E</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D44378E</tstamp>
+    </comp>
+    <comp ref="TP203">
+      <value>GND</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D45A9E3</tstamp>
+    </comp>
+    <comp ref="TP204">
+      <value>VRESET</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D45DC98</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>RESET_SW</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D46090E</tstamp>
+    </comp>
+    <comp ref="TP202">
+      <value>RESET_FB</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D466E6F</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D47C252</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D47DC14</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D47F6E0</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata/GRM32ER61C226ME20L/?qs=HkGFrfc5riBeJtarl5CPzg%3D%3D&amp;gclid=Cj0KCQjwsvrpBRCsARIsAKBR_0KF6AfDfabdxr02yOgihx2R0Uvg-qnD9VgowjwK6CU8cLzDABy6CzAaAtyBEALw_wcB</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D486728</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051M00FKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGubiAZzjveInE%3D</field>
+      </fields>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/Reset Supply/" tstamps="/5D0C0ECC/"/>
+      <tstamp>5D4951FB</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2Fg9XLK7yXuZY%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D0E21EF</tstamp>
+    </comp>
+    <comp ref="L301">
+      <value>15u</value>
+      <footprint>SamacSys_Parts:WE-TPC_282892</footprint>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Wurth-Elektronik/744025150?qs=%2Fha2pyFaduiSOj1d3psQ1J7H32KsdDY%2F41mzN%2FysqsgYOXpEL1OTYw%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="L" description="Inductor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D0F61A5</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051M00FKEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGubiAZzjveInE%3D</field>
+      </fields>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D23D4BA</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>71.5k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080571K5FKEA?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GhG3%252B1rmPSEQ%3D</field>
+      </fields>
+      <libsource lib="device" part="R" description="Resistor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D23DAFB</tstamp>
+    </comp>
+    <comp ref="NT301">
+      <value>Net-Tie_2</value>
+      <footprint>Oddities:NetTie-I_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="device" part="Net-Tie_2" description="Net tie, 2 pins"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D1AF0C8</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>TLV61046ADB</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv61046a.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TLV61046ADB" description="28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D3E6144</tstamp>
+    </comp>
+    <comp ref="RV301">
+      <value>1M</value>
+      <footprint>SamacSys_Parts:PVG5A502C03R00</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Bourns/PVG5A105C03R00?qs=sGAEpiMZZMvygUB3GLcD7qR9snKKmVdvcXCjc5UCOvM%3D</field>
+      </fields>
+      <libsource lib="device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D3E8230</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D44EBDF</tstamp>
+    </comp>
+    <comp ref="TP303">
+      <value>VBIAS</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D4519FA</tstamp>
+    </comp>
+    <comp ref="TP301">
+      <value>BIAS_SW</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D4529EA</tstamp>
+    </comp>
+    <comp ref="TP304">
+      <value>GND</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D45663C</tstamp>
+    </comp>
+    <comp ref="TP302">
+      <value>BIAS_FB</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P" description="point"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D464FC0</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D48FE38</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <fields>
+        <field name="Vendor">https://www.mouser.com/ProductDetail/Murata-Electronics/GRM32ER71J106MA12L?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdPZye8iaoHsoUfxkQASCnQg%3D%3D</field>
+      </fields>
+      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Bias Supply/" tstamps="/5D0C1156/"/>
+      <tstamp>5D49157F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Regulator_Switching" part="TLV61046ADB">
+      <description>28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv61046a.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV61046ADB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LM43601PWPR">
+      <description>SIMPLE SWITCHER 3.5V to 36V, 1A Synchronous Step-Down Voltage Converter</description>
+      <docs>http://www.ti.com/lit/gpn/lm43601</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM43601PWPR</field>
+        <field name="Footprint">SOP65P640X120-17N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/lm43601</field>
+        <field name="Description">SIMPLE SWITCHER 3.5V to 36V, 1A Synchronous Step-Down Voltage Converter</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM43601PWPR</field>
+        <field name="Mouser Part Number">595-LM43601PWPR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-LM43601PWPR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW_1" type="BiDi"/>
+        <pin num="2" name="SW_2" type="BiDi"/>
+        <pin num="3" name="CBOOT" type="BiDi"/>
+        <pin num="4" name="VCC" type="BiDi"/>
+        <pin num="5" name="BIAS" type="BiDi"/>
+        <pin num="6" name="SYNC" type="BiDi"/>
+        <pin num="7" name="RT" type="BiDi"/>
+        <pin num="8" name="PGOOD" type="BiDi"/>
+        <pin num="9" name="FB" type="BiDi"/>
+        <pin num="10" name="AGND" type="BiDi"/>
+        <pin num="11" name="SS/TRK" type="BiDi"/>
+        <pin num="12" name="EN" type="BiDi"/>
+        <pin num="13" name="VIN_1" type="BiDi"/>
+        <pin num="14" name="VIN_2" type="BiDi"/>
+        <pin num="15" name="PGND_1" type="BiDi"/>
+        <pin num="16" name="PGND_2" type="BiDi"/>
+        <pin num="17" name="EP" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Net-Tie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">Net-Tie_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:\SamacSys_PCB_Library\KiCad\SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/device.lib</uri>
+    </library>
+    <library logical="mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/nc2">
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="2" name="/nc1">
+      <node ref="J101" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C202" pin="1"/>
+      <node ref="U201" pin="12"/>
+      <node ref="U201" pin="13"/>
+      <node ref="U201" pin="14"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="J104" pin="1"/>
+      <node ref="NT301" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="L301" pin="1"/>
+    </net>
+    <net code="4" name="/BIAS+">
+      <node ref="R301" pin="1"/>
+      <node ref="U301" pin="5"/>
+      <node ref="TP303" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="F102" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D102-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="6" name="/RESET+">
+      <node ref="TP204" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U201" pin="17"/>
+      <node ref="U201" pin="15"/>
+      <node ref="U201" pin="10"/>
+      <node ref="U201" pin="16"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C211" pin="2"/>
+      <node ref="C210" pin="2"/>
+      <node ref="F101" pin="1"/>
+      <node ref="C208" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D101-Pad1)">
+      <node ref="R101" pin="2"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="L201" pin="2"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="TP304" pin="1"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C207" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="C206" pin="1"/>
+      <node ref="J104" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C210" pin="1"/>
+      <node ref="C211" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="TP203" pin="1"/>
+    </net>
+    <net code="9" name="/reset_rail">
+      <node ref="R102" pin="1"/>
+      <node ref="J103" pin="1"/>
+      <node ref="F101" pin="2"/>
+      <node ref="C102" pin="2"/>
+    </net>
+    <net code="10" name="/bias_rail">
+      <node ref="R101" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="F102" pin="2"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U201-Pad11)">
+      <node ref="U201" pin="11"/>
+    </net>
+    <net code="12" name="Net-(U201-Pad6)">
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U201-Pad7)">
+      <node ref="U201" pin="7"/>
+    </net>
+    <net code="14" name="Net-(R203-Pad2)">
+      <node ref="RV201" pin="3"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="15" name="/Reset Supply/vcc">
+      <node ref="C204" pin="1"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="16" name="/Reset Supply/sw_loop">
+      <node ref="U201" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="TP201" pin="1"/>
+      <node ref="L201" pin="1"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="17" name="/Reset Supply/boot">
+      <node ref="C205" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="18" name="/Reset Supply/pgood">
+      <node ref="U201" pin="8"/>
+      <node ref="R201" pin="2"/>
+    </net>
+    <net code="19" name="Net-(RV201-Pad1)">
+      <node ref="RV201" pin="1"/>
+    </net>
+    <net code="20" name="/Reset Supply/fb">
+      <node ref="RV201" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="R202" pin="1"/>
+      <node ref="U201" pin="9"/>
+      <node ref="TP202" pin="1"/>
+    </net>
+    <net code="21" name="Net-(RV301-Pad3)">
+      <node ref="RV301" pin="3"/>
+    </net>
+    <net code="22" name="/Bias Supply/boost_vin">
+      <node ref="NT301" pin="2"/>
+      <node ref="C303" pin="1"/>
+      <node ref="U301" pin="4"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="23" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2"/>
+      <node ref="RV301" pin="1"/>
+    </net>
+    <net code="24" name="/Bias Supply/sw_loop">
+      <node ref="U301" pin="1"/>
+      <node ref="TP301" pin="1"/>
+      <node ref="L301" pin="2"/>
+    </net>
+    <net code="25" name="/Bias Supply/fb">
+      <node ref="TP302" pin="1"/>
+      <node ref="U301" pin="3"/>
+      <node ref="RV301" pin="2"/>
+      <node ref="R302" pin="1"/>
+    </net>
+  </nets>
+</export>
